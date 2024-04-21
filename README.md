@@ -1,19 +1,19 @@
-# pro1
-by name1
+# readme 
+by rex
 
 
 # Description
-## dec1
+## create a readme file
 
 ## Table of Contents
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Code](#Code)
-- [Tests(#Tests)
-- [Licence](#Licence)
+- [Tests](#Tests)
+- [License](#License)
 
 # Installation
-## none
+## nonw
 
 # Usage
 ## create a file
@@ -21,10 +21,6 @@ by name1
 # Tests
 ## unit
 
-# Code
-```
-node
-``
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -34,4 +30,9 @@ This project is licensed under the [MIT License](LICENSE).
  
 
 
+
+# Code
+```
+node
+``
 

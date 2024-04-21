@@ -121,8 +121,8 @@ by ${data.name}
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Code](#Code)
-- [Tests(#Tests)
-- [Licence](#Licence)
+- [Tests](#Tests)
+- [License](#License)
 
 # Installation
 ## ${data.Installation}
@@ -133,11 +133,6 @@ by ${data.name}
 # Tests
 ## ${data.Tests}
 
-# Code
-\`\`\`
-${data.code}
-\`\`\
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -147,6 +142,12 @@ ${licenseBadge}
 ${licenseLink} 
 
 ${licenseSection}
+
+# Code
+\`\`\`
+${data.code}
+\`\`\
+
 
 `;
 }
