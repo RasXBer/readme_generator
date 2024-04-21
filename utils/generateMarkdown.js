@@ -101,10 +101,13 @@ function generateMarkdown(data) {
 
 // Render the license badge
 const licenseBadge = renderLicenseBadge(license);
+
   
 // Render the license link
 const licenseLink = renderLicenseLink(license);
 
+// Render the license section
+const licenseSection = renderLicenseSection(license);
 
   return `# ${data.title}
 by ${data.name}
@@ -125,6 +128,8 @@ This project is licensed under the [MIT License](LICENSE).
 ${licenseBadge} // Render the license badge
 
 ${licenseLink} // Render the license link
+
+${licenseSection}
 
 `;
 }
