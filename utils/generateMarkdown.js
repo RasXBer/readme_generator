@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
     return "[![License: MIT](https://img.shields.io/github/license/microsoft/vscode)](https://opensource.org/licenses/MIT)";
   } else if (license === "github") {
     // Return the badge URL for the GitHub repository license
-    return "[![License](https://img.shields.io/github/license/RaxBer/readme_generator)](LICENSE)";
+    return "[![License: github](https://img.shields.io/github/license/RasXBer/readme_generator)](LICENSE)";
     // Replace 'username' and 'repository' with your GitHub username and repository name respectively
   }
   
@@ -34,7 +34,7 @@ function renderLicenseLink(license) {
    const licenseLinks = {
     "MIT": "https://opensource.org/license/MIT",
 
-    "github": "https://img.shields.io/github/license/RaxBer/readme_generator)](LICENSE)",
+    "github": "https://img.shields.io/github/license/RasXBer/readme_generator)](LICENSE)",
    
     };
 
@@ -62,7 +62,6 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-
   
    const licenseSections = {
     "MIT": `
@@ -74,7 +73,7 @@ This project is licensed under the MIT License - see the [MIT License](https://o
 "github": `
 ## License
 
-This project is licensed under the github - see the [LICENSE](https://img.shields.io/github/license/RaxBer/readme_generator)](LICENSE)) page for details.
+This project is licensed under the github - see the [LICENSE](LICENSE) page for details.
 `,
    
   };
@@ -86,6 +85,8 @@ This project is licensed under the github - see the [LICENSE](https://img.shield
 
   // If the license type is recognized, return the corresponding license section
   return licenseSections[license] || ""; // Return empty string if license type is not recognized
+
+
 }
 
 // Example usage:
@@ -125,9 +126,9 @@ ${data.code}
 
 This project is licensed under the [MIT License](LICENSE).
 
-${licenseBadge} // Render the license badge
+${licenseBadge} 
 
-${licenseLink} // Render the license link
+${licenseLink} 
 
 ${licenseSection}
 
