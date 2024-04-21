@@ -11,32 +11,24 @@ function renderLicenseBadge(license) {
     return "[![License: github](https://img.shields.io/github/license/RasXBer/readme_generator)](LICENSE)";
     // Replace 'username' and 'repository' with your GitHub username and repository name respectively
   }
-  
+
 }
 
-// Example usage:
-const licenseType = "MIT"; 
-const badge = renderLicenseBadge(licenseType);
-console.log(badge); 
+// // Example usage:
+// const licenseType = "MIT";
+// const badge = renderLicenseBadge(licenseType);
+// console.log(badge);
 
-  // if (license === "none") {
-  
-  //   return " ";
-  // }
-  
-// }
-
-
-// TODO: Create a function that returns the license link
+// Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-   // Define license links for different license types
-   const licenseLinks = {
+  // Define license links for different license types
+  const licenseLinks = {
     "MIT": "https://opensource.org/license/MIT",
 
     "github": "https://img.shields.io/github/license/RasXBer/readme_generator)](LICENSE)",
-   
-    };
+
+  };
 
   // If no license or 'none' is specified, return an empty string
   if (!license || license === "none") {
@@ -47,35 +39,24 @@ function renderLicenseLink(license) {
   return licenseLinks[license] || ""; // Return empty string if license type is not recognized
 }
 
-// Example usage:
-// const licenseType = "MIT"; // Change this to the desired license type
-// const licenseLink = renderLicenseLink(licenseType);
-// console.log(licenseLink); // Output: "https://opensource.org/licenses/MIT"
-
-
-//   if (license !== "none") {
-//     return '\n'
-//   }
-//   return "";
-// }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  
-   const licenseSections = {
+
+  const licenseSections = {
     "MIT": `
 ## License
 
 This project is licensed under the MIT License - see the [MIT License](https://opensource.org/licenses/MIT) page for details.
 `,
 
-"github": `
+    "github": `
 ## License
 
 This project is licensed under the github - see the [LICENSE](LICENSE) page for details.
 `,
-   
+
   };
 
   // If no license or 'none' is specified, return an empty string
@@ -86,29 +67,21 @@ This project is licensed under the github - see the [LICENSE](LICENSE) page for 
   // If the license type is recognized, return the corresponding license section
   return licenseSections[license] || ""; // Return empty string if license type is not recognized
 
-
 }
-
-// Example usage:
-// const licenseType = "MIT"; // Change this to the desired license type
-// const licenseSection = renderLicenseSection(licenseType);
-// console.log(licenseSection); // Output: License section content for the MIT license
-
-
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const license = data.license;
 
-// Render the license badge
-const licenseBadge = renderLicenseBadge(license);
+  // Render the license badge
+  const licenseBadge = renderLicenseBadge(license);
 
-  
-// Render the license link
-const licenseLink = renderLicenseLink(license);
 
-// Render the license section
-const licenseSection = renderLicenseSection(license);
+  // Render the license link
+  const licenseLink = renderLicenseLink(license);
+
+  // Render the license section
+  const licenseSection = renderLicenseSection(license);
 
   return `# ${data.Title}
 by ${data.name}

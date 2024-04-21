@@ -1,4 +1,4 @@
-# Readme Generator
+# README Generator
 by Ras
 
 
@@ -16,7 +16,7 @@ by Ras
 ## None
 
 # Usage
-## Add readme file
+## Add a readme file to the project
 
 # Tests
 ## Unit
@@ -33,6 +33,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 # Code
 ```
-Node JS
+Node js
 ``
 
