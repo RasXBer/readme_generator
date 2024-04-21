@@ -115,14 +115,32 @@ by ${data.name}
 
 
 # Description
-## ${data.description}
+## ${data.Description}
 
-# Code
+## Table of Contents
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Code](#Code)
+- [License](##License)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+#Installation
+##${data.Installation}
+
+#Usage
+## ${data.Usage}
+
+#Tests
+## ${data.Tests}
+
+#Code
 \`\`\`
 ${data.code}
 \`\`\
 
-## License
+##License
 
 This project is licensed under the [MIT License](LICENSE).
 
