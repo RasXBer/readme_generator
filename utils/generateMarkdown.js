@@ -118,11 +118,11 @@ by ${data.name}
 ## ${data.Description}
 
 ## Table of Contents
-- [Installation](# Installation)
-- [Usage](# Usage)
-- [Code](# Code)
-- [Tests(# Tests)
-- [Licence](# Licence)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Code](#Code)
+- [Tests(#Tests)
+- [Licence](#Licence)
 
 # Installation
 ## ${data.Installation}
