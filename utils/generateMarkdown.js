@@ -101,18 +101,11 @@ function generateMarkdown(data) {
   return `# ${data.title}
 by ${data.name}
 
-${renderLicenseBadge(data.license)}
 
-// ## Title of the Project
-// # ${data.title}
+# Description
+## ${data.description}
 
-
-${renderLicenseLink(data.license)}
-
-## Description
-# ${data.description}
-
-## Code
+# Code
 \`\`\`
 ${data.code}
 \`\`\
@@ -120,6 +113,10 @@ ${data.code}
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+${renderLicenseBadge(data.license)}
+
+${renderLicenseLink(data.license)}
 
 `;
 }

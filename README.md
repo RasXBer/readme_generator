@@ -1,22 +1,19 @@
 # Readme generator
-by Rasika
+by Rasika1
 
 
+# Description
+## create a readme file
 
-// ## Title of the Project
-// # Readme generator
-
-
-
-
-## Description
-# Create a script to generate a readme markdown file
-
-## Code
+# Code
 ```
-Node js
+Node JS
 ``
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+
+
 
