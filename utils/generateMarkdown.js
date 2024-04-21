@@ -110,7 +110,7 @@ const licenseLink = renderLicenseLink(license);
 // Render the license section
 const licenseSection = renderLicenseSection(license);
 
-  return `# ${data.title}
+  return `# ${data.Title}
 by ${data.name}
 
 
@@ -118,29 +118,27 @@ by ${data.name}
 ## ${data.Description}
 
 ## Table of Contents
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Code](#Code)
-- [License](##License)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+- [Installation](# Installation)
+- [Usage](# Usage)
+- [Code](# Code)
+- [Tests(# Tests)
+- [Licence](# Licence)
 
-#Installation
-##${data.Installation}
+# Installation
+## ${data.Installation}
 
-#Usage
+# Usage
 ## ${data.Usage}
 
-#Tests
+# Tests
 ## ${data.Tests}
 
-#Code
+# Code
 \`\`\`
 ${data.code}
 \`\`\
 
-##License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
