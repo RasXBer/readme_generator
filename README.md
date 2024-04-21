@@ -1,9 +1,9 @@
-# readme 
-by rex
+# Readme Generator
+by Ras
 
 
 # Description
-## create a readme file
+## Create a professional README file
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -13,13 +13,13 @@ by rex
 - [License](#License)
 
 # Installation
-## nonw
+## None
 
 # Usage
-## create a file
+## Add readme file
 
 # Tests
-## unit
+## Unit
 
 ## License
 
@@ -33,6 +33,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 # Code
 ```
-node
+Node JS
 ``
 
