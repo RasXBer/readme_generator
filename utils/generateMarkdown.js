@@ -98,6 +98,14 @@ This project is licensed under the github - see the [LICENSE](https://img.shield
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const license = data.license;
+
+// Render the license badge
+const licenseBadge = renderLicenseBadge(license);
+  
+// Render the license link
+const licenseLink = renderLicenseLink(license);
+
+
   return `# ${data.title}
 by ${data.name}
 
@@ -114,9 +122,9 @@ ${data.code}
 
 This project is licensed under the [MIT License](LICENSE).
 
-${renderLicenseBadge(data.license)}
+${licenseBadge} // Render the license badge
 
-${renderLicenseLink(data.license)}
+${licenseLink} // Render the license link
 
 `;
 }
